@@ -20,6 +20,7 @@
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
+  --breakpoint-xl: 1100px;
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
@@ -140,5 +141,28 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #0a0608;
+  font-family: "Imprima", sans-serif;
+  scrollbar-gutter: stable;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@keyframes bobUp {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
   }
 }

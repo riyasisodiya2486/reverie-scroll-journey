@@ -143,3 +143,26 @@
     color: var(--color-foreground);
   }
 }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #0a0608;
+  font-family: "Imprima", sans-serif;
+  scrollbar-gutter: stable;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@keyframes bobUp {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}

@@ -485,7 +485,7 @@ export default function App() {
               style={{
                 position: "absolute",
                 top: 0,
-                right: "50%",
+                right: "calc(50% + 12vh)",
                 width: "auto",
                 maxWidth: "none",
                 height: "100%",

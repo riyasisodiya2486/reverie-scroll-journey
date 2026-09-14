@@ -6,21 +6,21 @@ import {
 } from "react";
 
 /* ----------------------------- Image assets ----------------------------- */
-const PORTAL_BG =
-  "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779707217/image_1_vdzwae.png";
-const CURTAIN_LEFT =
-  "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779706559/curtain_left_znkmva.png";
-const CURTAIN_RIGHT =
-  "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779706564/curtain_right_paeyym.png";
-const WORLD_BG =
-  "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779706392/image_2_gkcdlx.png";
-const BOTTOM_CLOUDS =
-  "https://res.cloudinary.com/dy5er7kv5/image/upload/q_auto/f_auto/v1779706555/bottom_clouds_xskut6.png";
-const CARD_IMAGES = [
-  "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_2026001469-484f-af25-59168ad9a233.png&w=1280&q=85",
-  "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_202600a101-4ded-a332-7d37707dbdd1.png&w=1280&q=85",
-  "https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_2026000dfb-4ac9-a4ef-e74f301c329c.png&w=1280&q=85",
-];
+import worldBg from "./assets/world-bg.jpg";
+import portalBg from "./assets/portal-bg.jpg";
+import bottomClouds from "./assets/bottom-clouds.png";
+import curtainLeft from "./assets/curtain-left.png";
+import curtainRight from "./assets/curtain-right.png";
+import card1 from "./assets/card-1.jpg";
+import card2 from "./assets/card-2.jpg";
+import card3 from "./assets/card-3.jpg";
+
+const PORTAL_BG = portalBg;
+const CURTAIN_LEFT = curtainLeft;
+const CURTAIN_RIGHT = curtainRight;
+const WORLD_BG = worldBg;
+const BOTTOM_CLOUDS = bottomClouds;
+const CARD_IMAGES = [card1, card2, card3];
 
 interface ArcCard {
   title: string;

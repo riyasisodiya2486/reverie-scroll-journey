@@ -482,7 +482,15 @@ export default function App() {
           <img
             src={CURTAIN_LEFT}
             alt=""
-            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "right center", display: "block" }}
+              style={{
+                position: "absolute",
+                top: 0,
+                right: "50%",
+                width: "auto",
+                maxWidth: "none",
+                height: "100%",
+                display: "block",
+              }}
           />
         </div>
 
@@ -499,7 +507,15 @@ export default function App() {
           <img
             src={CURTAIN_RIGHT}
             alt=""
-            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "left center", display: "block" }}
+              style={{
+                position: "absolute",
+                top: 0,
+                left: "calc(50% - 3vh)",
+                width: "auto",
+                maxWidth: "none",
+                height: "100%",
+                display: "block",
+              }}
           />
         </div>
 
